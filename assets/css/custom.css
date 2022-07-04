@@ -1,0 +1,11 @@
+.w-33 {
+  width: 33%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+#todo-item-container > div:nth-last-child(-n+1) {
+  margin-bottom: 0 !important;
+}

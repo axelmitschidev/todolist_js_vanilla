@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TotoList JS Vanilla</title>
+    <link rel="stylesheet" href="./node_modules/material-icons/iconfont/material-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./assets/css/custom.css"/>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+<div class="container d-flex flex-column justify-content-center align-items-center">
+    <h1 class="my-5 text-decoration-underline">TotoList JS Vanilla</h1>
+    <div class="card w-50">
+        <div class="card-header text-center fw-bold">TotoList</div>
+        <div class="card-body p-3">
+            <label for="input-add-element" hidden></label>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control rounded-start d-flex" placeholder="New item"
+                       id="input-add-element"/>
+                <button class="btn btn-success d-flex" id="btn-add">
+                    <span class="material-icons">add</span>
+                </button>
+            </div>
+            <div class="card bg-light">
+                <div class="card-body pb-3" id="todo-item-container">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
